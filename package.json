@@ -1,0 +1,27 @@
+{
+  "name": "electron-boilerplate",
+  "version": "1.0.0",
+  "description": "electron scafold",
+  "main": "screen/main/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parmianig/electron-boilerplate.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "pgp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parmianig/electron-boilerplate/issues"
+  },
+  "homepage": "https://github.com/parmianig/electron-boilerplate#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "electron": "^24.4.0"
+  }
+}
